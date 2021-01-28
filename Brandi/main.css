@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+/* COMMON */
+.section {
+    position: relative;
+    font-size: 16px;
+}
+.inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: tomato; */
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* HEADER */
+header .header-ad a {
+    background: url("https://image.brandi.me/home/banner/bannerImage_289118_1611127892.jpg");
+    width: 100%;
+    height: 110px;
+    display: block;
+    text-indent: -9999px;
+}
+header .menu-group {
+    border-bottom: 1px solid lightgray;
+    height: 120px;
+}
+header .menu-group .inner .logo a {
+    background: url("https://www.brandi.co.kr/static/20.09.02/images/logo@3x.png");
+    background-size: contain;
+    width: 145px;
+    height: 25px;
+    display: block;
+    text-indent: -9999px;
+}
+header .menu-group .search {
+
+}
+#search-form {
+    width: 500px;
+    height: 40px;
+    background-color: #F3F0F0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+#search-form .btn--search {
+    background: url("https://www.brandi.co.kr/static/20.09.01/images/a-action-bar-icon-search-nor.png");
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    text-indent: -9999px;
+    margin: 0 10px 0 20px;
+    border: none;
+}
+#search-form input {
+    border: none;
+    background-color: transparent;
+    width: 85%;
+}
+header .menu-group .menu .menu-list {
+    display: flex;
+}
+header .menu-group .menu .menu-list li {
+    padding: 0 8px;
+    border-right: 1px solid black; 
+
+}
+header .menu-group .menu .menu-list li:last-child {
+    border-right: none;
+}
+header .menu-group .menu .menu-list a {
+    font-size: 14px;
+
+}
+header .category{
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+}
+header .category .inner .category-list {
+    display: flex;
+}
+header .category .inner .category-list li a{
+    display: inline-block;
+    width: 136px;
+    height: 58px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+}
+header .category .inner .category-list li a:hover {
+    color: #F34747;
+    border-bottom: 2px solid #F34747;
+}
+
+/* MAIN */
+
+.section--visual .ad-group {
+    height: 490px;
+    background: url("https://image.brandi.me/home/banner/bannerImage_0_1610931452.jpg");
+}
+.section--visual .btn-group {
+    height: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section--visual .btn-group a{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 50%;
+    text-indent: -9999px;
+    margin: 10px 5px 0 ;
+}
+
+
+.section--recommend .inner {
+    display: block;
+}
+.section--recommend .main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.section--recommend .main-title p {
+    font-size: 26px;
+    font-weight: 800;
+}
+.section--recommend .best-list {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(4, 380px);
+}
+.section--recommend .best-list li a img {
+    width: 235px;
+    height: 250px;
+}
+.section--recommend .best-list li a p {
+    margin: 7px 0;
+}
+.section--recommend .best-list li a .seller {
+    color: #2c2c2c;
+}
+.section--recommend .best-list li a .p-price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.section--recommend .best-list li a .buyer {
+    font-size: 13px;
+    color: #707070;
+    margin-top: 12px;
+}
+.section--recommend .mid-ad a {
+    background: url("https://image.brandi.me/home/banner/bannerImage_1_1611136022.jpg");
+    background-size: cover;
+    display: block;
+    text-indent: -9999px;
+    width: 100%;
+    height: 310px;
+    margin: 70px 0;
+}
+.section--recommend .more-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.section--recommend .more-list .btn-more {
+    width: 250px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* SIDE-BAR */
+.side-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width: 70px;
+    height: auto;
+    z-index: 9999;
+}
+.side-bar .kakao-img {
+    margin-bottom: 20px;
+}
+.side-bar .kakao-chat a {
+    background: url("https://happytalk.io/data/chat_editor/1000222727/button-1610597477.png");
+    background-size: contain;
+    width: 50px;
+    height: 51px;
+    text-indent: -9999px;
+    display: block;
+}
+
+/* FOOTER */
+footer {
+    height: 365px;
+    background-color: #1C1C1C;
+}
+footer .inner {
+    display: block;
+    color: rgb(134, 132, 132);
+    font-size: 14px;
+}
+footer .community {
+    height: 165px;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(73, 70, 70);
+    display: flex;
+}
+footer .community .service-center {
+    width: 50%;
+    margin-top: 35px;
+}
+footer .community .service-center .service-title {
+    margin-bottom: 20px;
+}
+footer .community .service-center .service-title a {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+footer .community .service-center .service-info p {
+    margin: 5px 0;
+}
+footer .community .sns-link {
+    width: 50%;
+    margin-top: 35px;
+}
+footer .community .sns-link .sns-list {
+    display: flex;
+    justify-content: flex-end;
+}
+footer .community .sns-link .sns-list li a {
+    color: rgb(219, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+footer .community .sns-link .sns-list li a p{
+    margin: 0 10px 0 5px;
+}
+footer .info {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .info .site-info {
+    margin-top: 40px;
+}
+footer .info .site-info .info-list {
+    margin-bottom: 20px;
+
+}
+footer .info .site-info .info-list p {
+    margin: 5px 0;
+}
+footer .info .site-info .logic-link ul {
+    display: flex;
+}
+footer .info .site-info .logic-link ul li {
+    padding: 0 10px;
+}
+footer .info .site-info .logic-link ul li:first-child {
+    padding-left: 0;
+}
+footer .info .site-info .logic-link ul li:nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+footer .info .site-info .logic-link ul li:nth-child(2) a {
+    font-weight: 700;
+}
+footer .info .site-info .logic-link ul li a {
+    color: white;
+}
+footer .info .site-link {
+    margin-top: 40px;
+}
+footer .info .site-link .site-list {
+    display: flex;
+    align-items: center;
+}
+footer .info .site-link .site-list li a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+footer .info .site-link .site-list li a p {
+    margin: 0 10px 0 5px;
+}
