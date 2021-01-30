@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* COMMON */
+.section {
+    position: relative;
+    font-size: 16px;
+}
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: tomato; */
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+header .head-bar {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D8D8D8;
+}
+header .head-bar .logo {
+    margin-left: 20px;
+}
+header .head-bar .logo a {
+    background: url("https://static.cdn.soomgo.com/static/img/home/index_soomgo_logo.svg");
+    background-size: contain;
+    text-indent: -9999px;
+    display: block;
+    width: 110px;
+    height: 38px;
+}
+header .menu-group .menu-list {
+    display: flex;
+}
+header .menu-group .menu-list li {
+    margin-right: 40px;
+}
+
+/* MAIN */
+.section--visual .introduce {
+    height: 800px;
+}
+.section--visual .introduce .intro-title {
+    width: 50%;
+    margin: 230px 0 10px;
+}
+.section--visual .introduce .intro-title p {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 150%;
+    color: #2E2E2E;
+}
+#search-form {
+    width: 450px;
+    height: 60px;
+    border: 2px solid #04B486;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#search-form input {
+    width: 380px;
+    height: 30px;
+    border: none;
+}
+#search-form button {
+    text-indent: -9999px;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZmlsbD0iI0Q4RDhEOCIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAwaDE4djE4SDB6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0iIzMyMzIzMiIgZD0iTTE0Ljk0NCAxMy44ODdsNC44MzcgNC44MzhhLjc0Ny43NDcgMCAxIDEtMS4wNTYgMS4wNTZsLTQuODM4LTQuODM3YTguNDU4IDguNDU4IDAgMSAxIDEuMDU3LTEuMDU3em0tMS41MDUtLjU2M2E2Ljk2NCA2Ljk2NCAwIDEgMC0uMTE0LjExNC43NTUuNzU1IDAgMCAxIC4xMTQtLjExNHoiLz4KICAgIDwvZz4KPC9zdmc+Cg==");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.section--visual .introduce .intro-category {
+    height: 150px;
+}
+.section--visual .introduce .intro-category .category-list li {
+    float: left;
+    text-align: center;
+    margin: 3px 5px;
+    font-size: 14px;
+}
+.section--visual .introduce .intro-category .category-list a {
+    display: block;
+    width: 100px;
+    height: 80px;
+}
+.section--visual .introduce .intro-category .category-list li a img{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.section--visual .main-img {
+    margin-top: 150px;
+}
